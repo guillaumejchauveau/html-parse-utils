@@ -1,6 +1,6 @@
 {
   "name": "html-parse-utils",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A set of small utilities for HTML processing without parsing",
   "keywords": [
     "html",
@@ -14,5 +14,13 @@
   },
   "devDependencies": {
     "ava": "^2.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guillaumejchauveau/html-parse-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guillaumejchauveau/html-parse-utils/issues"
+  },
+  "homepage": "https://github.com/guillaumejchauveau/html-parse-utils"
 }

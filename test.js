@@ -2,7 +2,7 @@ import test from 'ava'
 import htmlUtils from './index'
 
 const htmlFixture1 =
-`<!DOCTYPE html>
+  `<!DOCTYPE html>
 
 <html>
   <head>
@@ -16,7 +16,7 @@ const htmlFixture1 =
 </html>`
 
 const htmlFixture2 =
-`<!DOCTYPE html>
+  `<!DOCTYPE html>
 
 <title>Title</title>
 <meta charset="utf8">
