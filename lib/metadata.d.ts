@@ -1,13 +1,11 @@
-declare namespace metadata {
-  interface tagMetadata {
+export namespace HTMLParseUtils {
+  interface TagMetadata {
     name: string,
     opening: boolean,
     closing: boolean
   }
-
-  const allowedHeadTags: tagMetadata[]
-  const beforeHeadEndTags: tagMetadata[]
-  const afterBodyEndTags: tagMetadata[]
 }
 
-export = metadata
+export const allowedHeadTags: HTMLParseUtils.TagMetadata[]
+export const beforeHeadEndTags: HTMLParseUtils.TagMetadata[]
+export const afterBodyEndTags: HTMLParseUtils.TagMetadata[]

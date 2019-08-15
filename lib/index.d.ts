@@ -1,11 +1,7 @@
-import { tagMetadata } from './metadata'
+import { HTMLParseUtils } from './metadata'
 
-export = HTMLParseUtils
+export function findPosWithoutTags (html: string, tags: HTMLParseUtils.TagMetadata[], fromEnd?: boolean): number
 
-declare namespace HTMLParseUtils {
-  function findPosWithoutTags (html: string, tags: tagMetadata[], fromEnd?: boolean): number
+export function findHtmlHeadEnd (html: string): number
 
-  function findHtmlHeadEnd (html: string): number
-
-  function findHtmlBodyEnd (html: string): number
-}
+export function findHtmlBodyEnd (html: string): number

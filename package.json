@@ -1,6 +1,6 @@
 {
   "name": "html-parse-utils",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A set of small utilities for HTML processing without parsing",
   "author": "Guillaume Chauveau <guillaumejchauveau.ops.gecu@outlook.com>",
   "license": "MIT",
