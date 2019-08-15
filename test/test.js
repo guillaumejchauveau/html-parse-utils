@@ -1,5 +1,5 @@
 import test from 'ava'
-import htmlUtils from './index'
+import htmlUtils from '../lib'
 
 const htmlFixture1 =
   `<!DOCTYPE html>
